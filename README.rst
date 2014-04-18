@@ -65,7 +65,7 @@ Ubuntu
 Under Debian/Ubuntu, the following command should install all the build
 dependencies::
 
-    sudo apt-get build-dep guake
+    $ sudo apt-get build-dep guake
 
 For manual dependency listing (Ubuntu 13.10)::
 
@@ -79,6 +79,14 @@ RedHat/Fedora
 -------------
 
 TBD
+
+ArchLinux
+---------
+
+Guake can be found in the [official repositories](https://www.archlinux.org/packages/?name=guake) 
+and installed by running
+
+    sudo pacman -S guake
 
 Compilation
 ~~~~~~~~~~~~
